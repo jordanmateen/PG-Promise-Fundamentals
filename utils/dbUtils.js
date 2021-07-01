@@ -4,7 +4,7 @@ const pgp = require('pg-promise')();
 class DBFactory {
 
     constructor(){
-        this.dbSettings = {database: 'cars'}
+        this.dbSettings = {database: 'XXXX'}
         this.db = pgp(this.dbSettings)
     }
 
